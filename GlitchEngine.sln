@@ -5,16 +5,38 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlitchEngine", "GlitchEngine\GlitchEngine.vcxproj", "{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Class Diagram", "Class Diagram\Class Diagram.modelproj", "{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}.Debug|Win32.Build.0 = Debug|Win32
+		{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}.Release|Any CPU.ActiveCfg = Release|Win32
+		{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}.Release|Win32.ActiveCfg = Release|Win32
 		{9B8535D7-D0EB-42B5-B071-0B0F5CBFA268}.Release|Win32.Build.0 = Release|Win32
+		{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{406DD1DB-4E77-42EA-845F-FB0AAB0D4CBE}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
