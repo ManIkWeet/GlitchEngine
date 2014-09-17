@@ -84,7 +84,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Defines.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="JoystickListener.h" />
+    <ClInclude Include="KeyboardListener.h" />
     <ClInclude Include="Logger.h" />
+    <ClInclude Include="MouseListener.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Window.h" />
@@ -92,7 +96,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GlitchEngine.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="JoystickListener.cpp" />
+    <ClCompile Include="KeyboardListener.cpp" />
     <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="MouseListener.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Window.cpp" />
     <ClCompile Include="WindowManager.cpp" />
