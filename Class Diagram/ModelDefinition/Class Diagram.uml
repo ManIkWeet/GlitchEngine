@@ -1056,7 +1056,17 @@
         Id="649100dd-48c0-4ca4-8fa7-ff5b402e724a"
         name="KeyboardInputListener"
         isAbstract="false"
-        isLeaf="false" />
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="6a088ea7-e3db-4778-ab68-14b2a1978731">
+            <classMoniker
+              Id="f45213bf-8d1c-42f9-97c9-2f92ae88916b"
+              LastKnownName="KeyEvent"
+              LastKnownLocation="Class Diagram.uml" />
+          </dependency>
+        </suppliersInternal>
+      </Interface>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -1292,7 +1302,17 @@
         Id="dbc28e92-412f-4ce1-81c3-bfb2f9bf1a12"
         name="MouseInputListener"
         isAbstract="false"
-        isLeaf="false" />
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="5567a906-f690-4c5f-9b9f-11a4c054a6da">
+            <classMoniker
+              Id="ad995924-6a5f-4477-82af-955aefe310ad"
+              LastKnownName="MouseEvent"
+              LastKnownLocation="Class Diagram.uml" />
+          </dependency>
+        </suppliersInternal>
+      </Interface>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -1426,6 +1446,72 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f45213bf-8d1c-42f9-97c9-2f92ae88916b"
+        name="KeyEvent"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="dfbd733f-1ca2-412d-b0d8-d75bb85c4be2"
+            name="keyPressed"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ad995924-6a5f-4477-82af-955aefe310ad"
+        name="MouseEvent"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="b27db720-44a1-43a1-9108-f8476dc13485"
+            name="mouseX"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="b19540fb-4bc2-45c7-ac15-1c400833e8ac"
+            name="mouseY"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="3eaeb545-2ae3-44b5-954c-f8ec718ccfdf"
+            name="buttonPressed"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

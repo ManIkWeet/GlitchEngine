@@ -4,3 +4,7 @@
 MouseListener::MouseListener()
 {
 }
+
+MouseListener::~MouseListener()
+{
+}

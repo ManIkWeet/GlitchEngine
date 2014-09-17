@@ -460,6 +460,12 @@
     <logicalClassDesignerModelHasTypes>
       <Interface Id="a2997835-98a0-44b6-8882-55a9afb62a49" name="KeyboardInputListener" isAbstract="false" isLeaf="false">
         <elementDefinition Id="649100dd-48c0-4ca4-8fa7-ff5b402e724a" />
+        <suppliersInternal>
+          <dependency Id="41d7ee9a-e9c2-4199-8ff0-040058ded939">
+            <classMoniker Id="bcdeb207-cb46-4137-95eb-de8f57459068" LastKnownName="KeyEvent" />
+            <elementDefinition Id="6a088ea7-e3db-4778-ab68-14b2a1978731" />
+          </dependency>
+        </suppliersInternal>
       </Interface>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
@@ -589,6 +595,12 @@
     <logicalClassDesignerModelHasTypes>
       <Interface Id="852f8c22-1654-4799-bddc-28a57693dcc6" name="MouseInputListener" isAbstract="false" isLeaf="false">
         <elementDefinition Id="dbc28e92-412f-4ce1-81c3-bfb2f9bf1a12" />
+        <suppliersInternal>
+          <dependency Id="7b3b9e05-8daa-4ae5-ac1c-3829b500b359">
+            <classMoniker Id="64cc814f-1a10-4786-ab5d-e8aa7bce7dda" LastKnownName="MouseEvent" />
+            <elementDefinition Id="5567a906-f690-4c5f-9b9f-11a4c054a6da" />
+          </dependency>
+        </suppliersInternal>
       </Interface>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
@@ -665,6 +677,32 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="757ebb05-d8f0-4ff5-8e2d-8b6dbc761e09" name="Joystick" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="1a2b70cc-17f3-41c5-8bb9-5dd805f42181" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bcdeb207-cb46-4137-95eb-de8f57459068" name="KeyEvent" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f45213bf-8d1c-42f9-97c9-2f92ae88916b" />
+        <ownedAttributesInternal>
+          <property Id="89f42f92-10fd-42f5-88bf-84009f1f9843" name="keyPressed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dfbd733f-1ca2-412d-b0d8-d75bb85c4be2" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="64cc814f-1a10-4786-ab5d-e8aa7bce7dda" name="MouseEvent" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ad995924-6a5f-4477-82af-955aefe310ad" />
+        <ownedAttributesInternal>
+          <property Id="632f7eb3-d6bb-4cd5-bdf2-da6229a3f4a2" name="mouseX" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b27db720-44a1-43a1-9108-f8476dc13485" />
+          </property>
+          <property Id="b55eab80-4abc-4b1d-938b-11ff74b0233d" name="mouseY" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b19540fb-4bc2-45c7-ac15-1c400833e8ac" />
+          </property>
+          <property Id="d996f0e8-9f5f-4920-9d08-c6e7bc68997e" name="buttonPressed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3eaeb545-2ae3-44b5-954c-f8ec718ccfdf" />
+          </property>
+        </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>

@@ -4,3 +4,7 @@
 JoystickListener::JoystickListener()
 {
 }
+
+JoystickListener::~JoystickListener()
+{
+}
